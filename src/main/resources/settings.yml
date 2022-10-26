@@ -1,0 +1,25 @@
+MONGO:
+  URI:
+    ENABLED: true
+    URL: ""
+    DATABASE: ""
+  HOST: ""
+  PORT: 27017
+  DATABASE: ""
+  AUTHENTICATION:
+    ENABLED: true
+    USERNAME: ""
+    PASSWORD: ""
+    AUTHENTICATION-DATABASE: ""
+
+SETTINGS:
+  GKIT-DEFAULT:
+    DISPLAY-NAME: "&b<gkit-name>"
+    ICON: DIAMOND_CHESTPLATE
+    COOLDOWN: "10h"
+    PRICE: 100
+    DESCRIPTION:
+      - "&7&m--------------------------"
+      - "&b<gkit> &7- &f<cooldown>"
+      - "&7&m--------------------------"
+    PERMISSION: "default.permission"

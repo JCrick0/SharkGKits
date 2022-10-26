@@ -1,0 +1,47 @@
+system:
+  license: ""
+  coins: false
+  storage: "H2"
+
+gkits:
+  rows: 3
+  categories: true
+  drop: false
+  refill-glass:
+    enabled: true
+    data: 15
+
+edit-gui:
+  category:
+    title: "&7Edit the category %category%"
+    material: "STAINED_GLASS_PANE"
+    data: 15
+    rows: 4
+  toggle-category:
+    slot: 10
+    name: "&bToggle Category"
+  change-name:
+    slot: 12
+    name: "&bChange Name"
+  change-size:
+    slot: 3
+    name: "&bChange inventory size"
+  change-inv:
+    slot: 5
+    name: "&bChange slot"
+  change-icon:
+    slot: 14
+    name: "&bChange icon"
+  glow:
+    slot: 22
+    name: "&bGlow"
+  change-lore:
+    slot: 16
+    name: "&bChange lore"
+  button-back:
+    slot: 30
+    name: "&cBack"
+
+
+
+

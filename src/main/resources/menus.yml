@@ -1,0 +1,102 @@
+MENUS:
+  KIT-MANAGER:
+    TITLE: "&bKit manager &7(<gkit-name>)"
+    ROWS: 1
+    FILL-BUTTONS:
+      ENABLED: true
+      DATA: 15
+    ITEMS:
+      CHANGE-NAME:
+        MATERIAL: NAME_TAG
+        SLOT: 0
+        NAME: "&b<gkit-name>"
+        DATA: 0
+        LORE:
+          - ""
+          - "&bClick here &fto change display name!"
+          - ""
+      SLOT:
+        MATERIAL: FEATHER
+        SLOT: 3
+        NAME: "&bSet kit slot"
+        DATA: 0
+        LORE:
+          - ""
+          - "&bClick here &fto change inventory kit slot!"
+          - ""
+      CHANGE-PERMISSION:
+        MATERIAL: NETHER_STAR
+        SLOT: 4
+        NAME: "&bChange Permission"
+        DATA: 0
+        LORE:
+          - ""
+          - "&bClick here &fto change gkit permission!"
+          - ""
+      DISPLAY-ICON:
+        MATERIAL: ITEM_FRAME
+        SLOT: 5
+        NAME: "&bSet item display icon!"
+        DATA: 0
+        LORE:
+          - ""
+          - "&bClick here &fto change display icon!"
+          - ""
+      DESCRIPTION:
+        MATERIAL: PAPER
+        SLOT: 6
+        NAME: "&bSet description!"
+        DATA: 0
+        LORE:
+          - ""
+          - "&bClick here &fto change description."
+          - ""
+          - "&fCurrent &bdescription&7:"
+          - ""
+          - "<gkit-description>"
+      CONTENTS:
+        MATERIAL: CHAINMAIL_CHESTPLATE
+        SLOT: 7
+        NAME: "&bSet kit contents!"
+        DATA: 0
+        LORE:
+          - ""
+          - "&bClick here &fto set kit contents!"
+          - ""
+      CUSTOM-ENCHANTS:
+        MATERIAL: ENCHANTED_BOOK
+        SLOT: 8
+        NAME: "&bSet piece custom enchant"
+        DATA: 0
+        LORE:
+          - ""
+          - "&bClick here &fto set custom enchants!"
+          - ""
+  KIT-PIECES:
+    TITLE: "&bKit Pieces Enchantment &7(<gkit-name>)"
+    FILL-BUTTONS:
+      ENABLED: true
+      DATA: 15
+  PIECE-CUSTOM-ENCHANT:
+    TITLE: "&bPiece Enchantments"
+    FILL-BUTTONS:
+      ENABLED: true
+      DATA: 15
+  SELECT-SLOT:
+    TITLE: "&bSelect kit slot"
+    ROWS: 3
+    ITEMS:
+      SELECT-SLOT:
+        MATERIAL: STAINED_GLASS_PANE
+        NAME: "&bSelect Slot"
+        DATA: 15
+        LORE:
+          - ""
+          - "&bSelect this to set here the kit!"
+          - ""
+  SELECT-KIT:
+    TITLE: "&bGkits Menu"
+    ROWS: 3
+    FILL-BUTTONS:
+      ENABLED: true
+      DATA: 15

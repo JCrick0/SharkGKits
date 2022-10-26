@@ -1,0 +1,61 @@
+gkits:
+  prefix: "&7[&bSharkGkits&7] &7|"
+  created: "%prefix% &a%gkit% successfully created."
+  deleted: "%prefix% &c%gkit% has been successfully deleted."
+  equiped: "%prefix% &aSuccessfully equiped the gkit &b%gkit%"
+  already-exist: "%prefix% &b%gkit% &aalready exists."
+  no-exist: "%prefix% &cdoes not exist."
+  category-not-found: "%prefix% &cThat category not exist."
+  inventory-full: "%prefix% &cYour inventory is too full. Please open up some space to buy that."
+  no-have: "%prefix% &cYou dont have this gkit, you can buy it at store.server.com"
+  buy:
+    successfully: ""
+    no-money: ""
+    no-exist: ""
+  coins:
+    successfully: ""
+    no-founds: "%prefix% &cYou do not have sufficient funds to purchase this gkit."
+    balance: "&aYou have %balance% coins"
+  create-category:
+    exist: "%prefix% &cthe category %category% already exist!"
+    successfully: "%prefix% &aSuccessfully created the category %category%"
+  create-kit:
+    successfully: "%prefix% &aSuccessfully created the gkit %gkit%"
+    exist: "%prefix% &cthe gkit %gkit% already exist!"
+  lore:
+    available:
+      - "&7&m--------------------------"
+      - "&fSpecialized &d&lArcher Players"
+      - " "
+      - "&cCooldown: %COOLDOWN%"
+      - "&cAvailable in: You do not have access to this kit"
+      - "&7(&bstore.neptunepvp.us&7)"
+      - "&7&m--------------------------"
+    no-available:
+      - "&7&m--------------------------"
+      - "&fCooldown &b%COOLDOWN%"
+      - " "
+      - "&fAvailable in &c%COOLDOWN_LEFT%"
+      - "&fStore &bstore.neptunepvp.us"
+      - " "
+      - "&fRight Click to Check"
+      - "&7&m--------------------------"
+    no-permission:
+      - "&7&m--------------------------"
+      - "&fYou do not have access to this kit"
+      - "&fpurchase in &bstore.neptunepvp.us"
+      - ""
+      - "&fRight Click to Check"
+      - "&7&m--------------------------"
+  gui:
+    categories:
+      title: "&aGKits Categories"
+    list:
+      title: "&b%gategory% &aGkits"
+    preview:
+      title: "&b%gkit% Preview"
+
+#GKIT: AGREGAR PE.
+  #NO-PERMISSION: "&cYou do not have permission to use that command."
+  #COOLDOWN: "%prefix% &acooldown was successfully placed."
+  #USE-COOLDOWN: "%prefix% &cYou have to wait &4{COOLDOWN} &cto use this again."
